@@ -1,0 +1,41 @@
+.title{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(212, 212, 212, 0.533);
+}
+.wrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(212, 212, 212, 0.886);
+}
+.cart{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+.text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 20px;
+    color: rgb(81, 81, 81);
+}
+.input{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 20px;
+    border:2px solid #0000;
+    border-radius: 5px;
+}
+.button{
+    margin-top: 10px;
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgba(59, 131, 213, 0.849);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
