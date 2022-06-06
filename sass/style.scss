@@ -4,13 +4,28 @@
     text-align: center;
     background-color: rgba(212, 212, 212, 0.533);
 }
-.wrapper{
+.elem{
     padding: 20px;
     display: flex;
     flex-direction: column;
     background-color: rgba(212, 212, 212, 0.886);
 }
-.cart{
+.calc{
+    display: flex;
+    background-color: rgba(212, 212, 212, 0.533);
+    &__title{
+        background: #fff;
+        padding: 10px;
+        border: 1px solid black;
+        cursor: pointer;
+        font-size: 20px;
+        &_active{
+            background-color: rgba(212, 212, 212, 0.886);
+            border-bottom: none;
+        }
+    }
+}
+.wrapper{
     display: block;
     margin: 0 auto;
     width: 300px;
@@ -44,4 +59,7 @@
     width: 50px;
     height: 30px;
     cursor: pointer;
+}
+.markup{
+    display: none;
 }

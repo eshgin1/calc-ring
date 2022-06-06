@@ -10,25 +10,50 @@
 </head>
 <body>
     <h1 class="title">Калькулятор для колец</h1>
-    <div class="wrapper">
-        <div class="cart">
-            <div class="block">
-                <div class="text">Размер пальца</div>
-                <input type="text" class="input size" placeholder="мм">
+    <div class="calc">
+        <div class="calc__title calc__title_active">Кольцо</div>
+        <div class="calc__title">Разметка кольца</div>
+    </div>
+    <div class="elem">
+        <div class="wrapper ">
+            <div class="ring">
+                <div class="block">
+                    <div class="text">Размер пальца</div>
+                    <input type="text" class="input size" placeholder="мм">
+                </div>
+                <div class="block">
+                    <div class="text">Толщина заготовки</div>
+                    <input type="text" class="input thickness" placeholder="мм">
+                </div>
+                <button class="button">=</button>
+                <div class="block">
+                    <div class="text">Длинна заготовки</div>
+                    <input type="text" class="input long" placeholder="мм">
+                </div>
+                <button class="button__clear">AC</button>
             </div>
-            <div class="block">
-                <div class="text">Толщина заготовки</div>
-                <input type="text" class="input thickness" placeholder="мм">
+        </div>
+        <div class="wrapper ">
+            <div class="markup">
+                <div class="markup__block">
+                    <div class="text">Количество частей</div>
+                    <input type="text" class="input amout">
+                </div>
+                <div class="markup__block">
+                    <div class="text">Радиус</div>
+                    <input type="text" class="input radius" placeholder="мм">
+                </div>
+                <button class="button button__markup">=</button>
+                <div class="block">
+                    <div class="text">Разметка кольца</div>
+                    <input type="text" class="input markup-ring" placeholder="мм">
+                </div>
+                <button class="button__clear">AC</button>
             </div>
-            <button class="button">=</button>
-            <div class="block">
-                <div class="text">Длинна заготовки</div>
-                <input type="text" class="input long" placeholder="мм">
-            </div>
-            <button class="button__clear">AC</button>
         </div>
     </div>
-    
+
+
     <script src="js/script.js"></script>
 </body>
 </html>
